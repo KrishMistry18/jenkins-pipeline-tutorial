@@ -23,7 +23,8 @@ pipeline {
         }
         stage('Run Integration Tests') {
             steps {
-                echo 'Run only crucial integration tests from the source code' 
+                echo 'Run only crucial integration tests from the source code'
+                echo 'Hi I am Krish Mistry'
             }
         }
         stage('Publish Artifacts') {
